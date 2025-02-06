@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function CityCard({ city }) {
   return (
-    <Link href={`/cities/${city.slug}`}>
+    <Link href={`/${city.slug}`}>
       <div className="group relative h-[400px] rounded-2xl overflow-hidden">
         <Image
           src={city.image}
